@@ -40,7 +40,7 @@
     return (
       '<figure class="ph reveal" data-idx="' + idx + '">' +
       '<div class="frame">' +
-      '<img src="' + esc(it.thumb) + '" alt="' + esc(it.caption) + '" width="' + it.w + '" height="' + it.h + '" loading="lazy">' +
+      '<img src="' + esc(it.thumb) + '" alt="' + esc(it.caption) + '" width="' + it.w + '" height="' + it.h + '" loading="lazy" decoding="async">' +
       "</div>" +
       "<figcaption><span class=\"cap\">" + esc(it.caption) + "</span>" + stage + "</figcaption>" +
       "</figure>"
@@ -63,7 +63,7 @@
       '<div class="hero-actions"><a class="btn btn-solid" href="#works">浏览作品</a></div>' +
       "</div>" +
       '<figure class="hero-photo"><div class="mat">' +
-      '<img src="' + esc(s.photo) + '" alt="' + esc(s.name) + ' 工作照" width="1200" height="1500">' +
+      '<img src="' + esc(s.photo) + '" alt="' + esc(s.name) + ' 工作照" width="1200" height="1500" fetchpriority="high">' +
       "</div><figcaption>PORTFOLIO 2026</figcaption></figure>";
 
     var grid = $("#module-grid");
