@@ -471,78 +471,78 @@ var SITE_DATA = {
       {
        "src": "assets/img/drawings/后期/01_原始图.jpg",
        "thumb": "assets/img/drawings/后期/01_原始图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "原始图"
       },
       {
        "src": "assets/img/drawings/后期/02_墙体定位尺寸图.jpg",
        "thumb": "assets/img/drawings/后期/02_墙体定位尺寸图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "墙体定位尺寸图"
       },
       {
        "src": "assets/img/drawings/后期/03_平面布置图.jpg",
        "thumb": "assets/img/drawings/后期/03_平面布置图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "平面布置图"
       },
       {
        "src": "assets/img/drawings/后期/04_地面铺装图.jpg",
        "thumb": "assets/img/drawings/后期/04_地面铺装图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "地面铺装图"
       },
       {
        "src": "assets/img/drawings/后期/05_天花布置图.jpg",
        "thumb": "assets/img/drawings/后期/05_天花布置图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "天花布置图"
       },
       {
        "src": "assets/img/drawings/后期/06_天花灯具尺寸定位图.jpg",
        "thumb": "assets/img/drawings/后期/06_天花灯具尺寸定位图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "天花灯具尺寸定位图"
       },
       {
        "src": "assets/img/drawings/后期/07_天花造型尺寸定位图.jpg",
        "thumb": "assets/img/drawings/后期/07_天花造型尺寸定位图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "天花造型尺寸定位图"
       },
       {
        "src": "assets/img/drawings/后期/08_照明控制图.jpg",
        "thumb": "assets/img/drawings/后期/08_照明控制图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "照明控制图"
       },
       {
        "src": "assets/img/drawings/后期/09_插座布置图.jpg",
        "thumb": "assets/img/drawings/后期/09_插座布置图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "插座布置图"
       },
       {
        "src": "assets/img/drawings/后期/10_排水布置图.jpg",
        "thumb": "assets/img/drawings/后期/10_排水布置图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "排水布置图"
       },
       {
        "src": "assets/img/drawings/后期/11_立面索引图.jpg",
        "thumb": "assets/img/drawings/后期/11_立面索引图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "立面索引图"
       }
      ]
@@ -554,80 +554,80 @@ var SITE_DATA = {
       {
        "src": "assets/img/drawings/立面图/主卧立面图.jpg",
        "thumb": "assets/img/drawings/立面图/主卧立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "主卧立面图",
        "pdf": "assets/pdf/立面图/主卧立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/主卫生间立面图.jpg",
        "thumb": "assets/img/drawings/立面图/主卫生间立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "主卫生间立面图",
        "pdf": "assets/pdf/立面图/主卫生间立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/儿童房立面图.jpg",
        "thumb": "assets/img/drawings/立面图/儿童房立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "儿童房立面图",
        "pdf": "assets/pdf/立面图/儿童房立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/卧室立面图.jpg",
        "thumb": "assets/img/drawings/立面图/卧室立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "卧室立面图",
        "pdf": "assets/pdf/立面图/卧室立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/厨房立面图.jpg",
        "thumb": "assets/img/drawings/立面图/厨房立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "厨房立面图",
        "pdf": "assets/pdf/立面图/厨房立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/多功能房立面图.jpg",
        "thumb": "assets/img/drawings/立面图/多功能房立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "多功能房立面图",
        "pdf": "assets/pdf/立面图/多功能房立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/客厅卫生间立面图.jpg",
        "thumb": "assets/img/drawings/立面图/客厅卫生间立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "客厅卫生间立面图",
        "pdf": "assets/pdf/立面图/客厅卫生间立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/客厅立面图.jpg",
        "thumb": "assets/img/drawings/立面图/客厅立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "客厅立面图",
        "pdf": "assets/pdf/立面图/客厅立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/玄关立面图.jpg",
        "thumb": "assets/img/drawings/立面图/玄关立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "玄关立面图",
        "pdf": "assets/pdf/立面图/玄关立面图.pdf"
       },
       {
        "src": "assets/img/drawings/立面图/阳台立面图.jpg",
        "thumb": "assets/img/drawings/立面图/阳台立面图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "阳台立面图",
        "pdf": "assets/pdf/立面图/阳台立面图.pdf"
       }
@@ -640,24 +640,24 @@ var SITE_DATA = {
       {
        "src": "assets/img/drawings/大样图/多功能房D面节点大样图.jpg",
        "thumb": "assets/img/drawings/大样图/多功能房D面节点大样图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "多功能房D面节点大样图",
        "pdf": "assets/pdf/大样图/多功能房D面节点大样图.pdf"
       },
       {
        "src": "assets/img/drawings/大样图/天花大样图.jpg",
        "thumb": "assets/img/drawings/大样图/天花大样图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "天花大样图",
        "pdf": "assets/pdf/大样图/天花大样图.pdf"
       },
       {
        "src": "assets/img/drawings/大样图/玄关D面节点大样图.jpg",
        "thumb": "assets/img/drawings/大样图/玄关D面节点大样图_t.jpg",
-       "w": 1131,
-       "h": 1600,
+       "w": 1600,
+       "h": 1131,
        "caption": "玄关D面节点大样图",
        "pdf": "assets/pdf/大样图/玄关D面节点大样图.pdf"
       }
