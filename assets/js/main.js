@@ -72,7 +72,7 @@
         '<a class="m-card reveal" href="' + m.key + '.html">' +
         '<div class="cover"><img src="' + esc(m.cover) + '" alt="' + esc(m.title) + '" loading="lazy"></div>' +
         '<div class="row"><span class="no">' + m.no + "</span><h3>" + esc(m.title) + '</h3><span class="en">' + esc(m.en) + "</span></div>" +
-        "<p>" + esc(m.desc) + " · 共 " + m.count + " 张</p>" +
+        "<p>" + esc(m.desc) + " · " + (m.countLabel || ("共 " + m.count + " 张")) + "</p>" +
         '<span class="go">查看模块</span>' +
         "</a>"
       );
@@ -109,22 +109,46 @@
 
   function renderDrawings() {
     var g = D.galleries.drawings;
+    var total = g.groups.reduce(function (n, x) { return n + x.items.length; }, 0);
     $("#page-title").textContent = g.title;
     $("#page-en").textContent = g.en;
     $("#page-sub").textContent = g.sub;
-    $("#page-count").textContent = g.items.length + " 张图纸";
-    $("#gallery").innerHTML =
-      '<div class="dwg-grid">' +
-      g.items.map(function (it, i) {
-        return figureHTML(it, i).replace("</figcaption>", "</figcaption>");
-      }).join("") +
-      "</div>" +
-      '<p class="dwg-foot">施工图均以 AutoCAD 绘制；灯箱内可查看大图，或点击「查看 PDF」获取原始文件。</p>';
-    // 给施工图灯箱补充 PDF 链接（lightbox 渲染时读取 data-pdf）
+    $("#page-count").textContent = g.groups.length + " 套 · " + total + " 张图纸";
+    $("#gallery").innerHTML = g.groups.map(function (grp, gi) {
+      return (
+        '<section class="f-group">' +
+        '<div class="f-head"><span class="no">' + String(gi + 1).padStart(2, "0") + "</span>" +
+        "<h2>" + esc(grp.name) + '</h2><span class="sub">' + esc(grp.en || "") + '</span><span class="rule"></span></div>' +
+        '<div class="dwg-grid">' + grp.items.map(figureHTML).join("") + "</div>" +
+        "</section>"
+      );
+    }).join("");
+    // PDF 链接按 DOM 顺序映射到对应图块
+    var flat = [];
+    g.groups.forEach(function (grp) { flat = flat.concat(grp.items); });
     $("#gallery").querySelectorAll(".ph").forEach(function (el, i) {
-      var pdf = g.items[i].pdf;
-      if (pdf) el.setAttribute("data-pdf", pdf);
+      if (flat[i] && flat[i].pdf) el.setAttribute("data-pdf", flat[i].pdf);
     });
+  }
+
+  function renderPanorama() {
+    var g = D.galleries.panorama;
+    $("#page-title").textContent = g.title;
+    $("#page-en").textContent = g.en;
+    $("#page-sub").textContent = g.sub;
+    $("#page-count").textContent = g.items.length + " 个漫游";
+    $("#gallery").innerHTML = g.items.map(function (p, i) {
+      return (
+        '<a class="pano-card reveal" href="' + esc(p.url) + '" target="_blank" rel="noopener">' +
+        '<div class="pano-cover">' +
+        '<img src="' + esc(p.coverThumb || p.cover) + '" alt="' + esc(p.name) + '" loading="lazy" decoding="async">' +
+        '<span class="pano-play">▶ 进入 360° 全景</span></div>' +
+        '<div class="pano-info"><span class="no">' + String(i + 1).padStart(2, "0") + "</span>" +
+        '<div><h3>' + esc(p.name) + "</h3><p>" + esc(p.scenes) + "</p></div></div>" +
+        '<span class="pano-note">' + esc(p.desc) + " · 点击在新窗口打开</span>" +
+        "</a>"
+      );
+    }).join("");
   }
 
   /* ---------- 灯箱 ---------- */
@@ -257,6 +281,7 @@
     else if (page === "renders") renderRenders();
     else if (page === "model3d") renderModel3d();
     else if (page === "drawings") renderDrawings();
+    else if (page === "panorama") renderPanorama();
     lightbox.init();
     layoutAllMasonry();
     initReveal();
