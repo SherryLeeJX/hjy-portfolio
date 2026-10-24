@@ -4,7 +4,7 @@ var SITE_DATA = {
   "name": "黄嘉怡",
   "eyebrow": "INTERIOR & FURNITURE PORTFOLIO · 2026",
   "role": "室内设计 / 家具设计",
-  "bio": "专注住宅空间与家具一体化设计。从空间效果图、家具建模渲染、可落地的施工图纸，到 360° 全景漫游，独立完成从概念到交付的完整流程。",
+  "bio": "专注室内设计与家具产品可视化，熟练绘制室内全套施工图、效果图、360°全景效果图；精通家具产品建模、材质调校与写实渲染，擅长把设计方案转化为直观、落地的视觉成果，兼顾方案美感、工艺细节与落地性。",
   "skills": [
    "3ds Max",
    "AutoCAD",
@@ -405,7 +405,7 @@ var SITE_DATA = {
     },
     {
      "name": "边柜",
-     "sub": "木皮饰面 · 金属细节",
+     "sub": "木皮饰面 · 几何浮雕",
      "items": [
       {
        "src": "assets/img/model3d/边柜/01_平面图.jpg",
@@ -462,11 +462,11 @@ var SITE_DATA = {
   "drawings": {
    "title": "施工图",
    "en": "CONSTRUCTION DRAWING",
-   "sub": "AutoCAD 全套图纸：施工图后期、立面图、大样图；PDF 内含完整图层与标注。",
+   "sub": "AutoCAD 全套图纸：室内施工图、立面图、大样图。",
    "groups": [
     {
-     "name": "后期",
-     "en": "POST-PRODUCTION",
+     "name": "室内施工图",
+     "en": "INTERIOR DRAWINGS",
      "items": [
       {
        "src": "assets/img/drawings/后期/01_原始图.jpg",

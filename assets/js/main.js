@@ -143,8 +143,7 @@
         '<div class="pano-cover">' +
         '<img src="' + esc(p.coverThumb || p.cover) + '" alt="' + esc(p.name) + '" loading="lazy" decoding="async">' +
         '<span class="pano-play">▶ 进入 360° 全景</span></div>' +
-        '<div class="pano-info"><span class="no">' + String(i + 1).padStart(2, "0") + "</span>" +
-        '<div><h3>' + esc(p.name) + "</h3><p>" + esc(p.scenes) + "</p></div></div>" +
+        '<div class="pano-info"><div><h3>' + esc(p.name) + "</h3><p>" + esc(p.scenes) + "</p></div></div>" +
         '<span class="pano-note">' + esc(p.desc) + " · 点击在新窗口打开</span>" +
         "</a>"
       );
