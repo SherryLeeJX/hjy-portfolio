@@ -6,13 +6,10 @@ var SITE_DATA = {
   "role": "室内设计 / 家具设计",
   "bio": "专注室内设计与家具产品可视化，熟练绘制室内全套施工图、效果图、360°全景效果图；精通家具产品建模、材质调校与写实渲染，擅长把设计方案转化为直观、落地的视觉成果，兼顾方案美感、工艺细节与落地性。",
   "skills": [
-   "3ds Max",
-   "AutoCAD",
+   "3D Max",
+   "CAD",
    "酷家乐",
-   "Photoshop",
-   "Premiere",
-   "After Effects",
-   "Illustrator"
+   "Photoshop"
   ],
   "phone": "13047088547",
   "photo": "assets/img/profile/profile.jpg",
