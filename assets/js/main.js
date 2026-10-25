@@ -95,13 +95,32 @@
     }).join("");
   }
 
+  /* ---------- 效果图卡片：上方「编号 + 空间名 + 设计理念」，下方大图（与 PDF 同版式） ---------- */
+  function renderBlockHTML(it, idx) {
+    var no = String(idx + 1).padStart(2, "0");
+    var ttl = it.conceptTitle || it.caption;
+    var desc = it.concept || "";
+    return (
+      '<figure class="ph rb reveal" data-idx="' + idx + '">' +
+      '<div class="rb-head">' +
+      '<span class="rb-no">' + no + "</span>" +
+      '<h3 class="cap">' + esc(ttl) + "</h3>" +
+      (desc ? '<p class="rb-desc">' + esc(desc) + "</p>" : "") +
+      "</div>" +
+      '<div class="frame">' +
+      '<img src="' + esc(it.thumb) + '" alt="' + esc(ttl) + '" width="' + it.w + '" height="' + it.h + '" loading="lazy" decoding="async">' +
+      "</div>" +
+      "</figure>"
+    );
+  }
+
   function renderRenders() {
     var g = D.galleries.renders;
     $("#page-title").textContent = g.title;
     $("#page-en").textContent = g.en;
     $("#page-sub").textContent = g.sub;
     $("#page-count").textContent = g.items.length + " 项作品";
-    $("#gallery").innerHTML = g.items.map(figureHTML).join("");
+    $("#gallery").innerHTML = g.items.map(renderBlockHTML).join("");
   }
 
   function renderModel3d() {
@@ -184,9 +203,13 @@
         var imgEl = el.querySelector("img");
         var thumb = imgEl ? imgEl.getAttribute("src") : "";
         var full = thumb.replace(/_t\.jpg$/, ".jpg");
+        var capEl = el.querySelector(".cap");
+        var cap = capEl ? capEl.textContent : "";
+        var dEl = el.querySelector(".rb-desc");
+        if (dEl) { cap += "　" + dEl.textContent; }   // 灯箱里也带上设计理念
         return {
           full: full,
-          caption: el.querySelector(".cap") ? el.querySelector(".cap").textContent : "",
+          caption: cap,
           pdf: el.getAttribute("data-pdf") || ""
         };
       });

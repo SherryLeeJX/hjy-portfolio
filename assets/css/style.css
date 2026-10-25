@@ -267,6 +267,8 @@ body.lb-lock { overflow: hidden; }
   .uniform-grid { grid-template-columns: 1fr; }
   .module-grid { grid-template-columns: 1fr; }
   .dwg-grid { grid-template-columns: 1fr; }
+  .rb-grid { grid-template-columns: 1fr; gap: 34px; }
+  .rb-head .cap { font-size: 15.5px; }
   .lb-stage { padding: 72px 12px 66px; }
   .lb-arrow { width: 42px; height: 42px; top: auto; bottom: 10px; transform: none; }
   .lb-prev { left: calc(50% - 54px); } .lb-next { right: calc(50% - 54px); }
@@ -278,6 +280,23 @@ body.lb-lock { overflow: hidden; }
 .uniform-grid .ph { margin: 0; }
 .uniform-grid .frame { aspect-ratio: 4 / 3; overflow: hidden; }
 .uniform-grid .frame img { width: 100%; height: 100%; object-fit: cover; }
+
+/* ---------- 效果图卡片：上文下图（与 PDF 同版式） ---------- */
+.rb-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 44px 34px; padding-bottom: 130px; }
+.rb-grid .ph { margin: 0; }
+.rb-grid .frame { aspect-ratio: 4 / 3; overflow: hidden; background: var(--surface); border: 1px solid var(--line); }
+.rb-grid .frame img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s var(--ease); }
+.rb-grid .ph:hover .frame img { transform: scale(1.02); }
+.rb-head { margin-bottom: 14px; }
+.rb-no {
+  font-family: var(--serif); font-style: italic; font-size: 12px;
+  letter-spacing: .18em; color: var(--accent); display: inline-block; margin-bottom: 6px;
+}
+.rb-head .cap {
+  display: block; font-size: 17px; font-weight: 600; letter-spacing: .04em;
+  color: var(--ink); line-height: 1.5; margin-bottom: 6px;
+}
+.rb-desc { font-size: 13.5px; line-height: 1.85; color: var(--ink-2); }
 
 /* ---------- 全景图页 ---------- */
 .pano-list { padding-bottom: 130px; display: grid; gap: 34px; }
