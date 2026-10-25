@@ -296,7 +296,10 @@ body.lb-lock { overflow: hidden; }
   display: block; font-size: 17px; font-weight: 600; letter-spacing: .04em;
   color: var(--ink); line-height: 1.5; margin-bottom: 6px;
 }
-.rb-desc { font-size: 13.5px; line-height: 1.85; color: var(--ink-2); }
+.rb-desc {
+  font-size: 13.5px; line-height: 1.8; color: var(--ink-2);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;  /* 固定一行，不影响排版 */
+}
 
 /* ---------- 全景图页 ---------- */
 .pano-list { padding-bottom: 130px; display: grid; gap: 34px; }
