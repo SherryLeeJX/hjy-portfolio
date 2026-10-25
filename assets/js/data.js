@@ -4,9 +4,22 @@ var SITE_DATA = {
   "name": "黄嘉怡",
   "eyebrow": "INTERIOR & FURNITURE PORTFOLIO · 2026",
   "role": "室内设计 / 家具设计",
-  "bio": "专注室内设计与家具产品可视化，熟练绘制室内全套施工图、效果图、360°全景效果图；精通家具产品建模、材质调校与写实渲染，擅长把设计方案转化为直观、落地的视觉成果，兼顾方案美感、工艺细节与落地性。",
+  "bio": "专注室内空间与定制家具可视化方向，具备从方案对接、图纸输出到渲染表现的完整能力。",
+  "bioPoints": [
+   {
+    "label": "室内板块",
+    "text": "独立绘制全套施工图纸、效果图、360°全景图，熟悉家装/定制落地工艺，把控方案落地性"
+   },
+   {
+    "label": "家具板块",
+    "text": "擅长定制家具建模、材质调试、写实渲染，还原家具结构、肌理与光影质感"
+   }
+  ],
+  "bioOutro": "以视觉表现赋能设计方案，平衡设计美感、成本逻辑与施工落地，高效输出高质量可视化成果。",
+  "skillsLabel": "熟练技能",
   "skills": [
    "3D Max",
+   "Vray",
    "CAD",
    "酷家乐",
    "Photoshop"
@@ -17,26 +30,8 @@ var SITE_DATA = {
  },
  "modules": [
   {
-   "key": "model3d",
-   "no": "01",
-   "title": "家具建模渲染",
-   "en": "3D MODELING",
-   "desc": "沙发 / 椅 / 茶几 / 灯具 / 柜体 · 图纸到场景全流程",
-   "cover": "assets/img/covers/model3d_t.jpg",
-   "count": 44
-  },
-  {
-   "key": "drawings",
-   "no": "02",
-   "title": "施工图",
-   "en": "CONSTRUCTION DRAWING",
-   "desc": "CAD 施工图 · 后期 / 立面 / 大样，全套图纸可下载 PDF",
-   "cover": "assets/img/covers/drawings_t.jpg",
-   "count": 24
-  },
-  {
    "key": "renders",
-   "no": "03",
+   "no": "01",
    "title": "效果图",
    "en": "RENDERING",
    "desc": "住宅空间表现 · 客厅 / 卧室 / 餐厨 / 卫生间",
@@ -45,13 +40,31 @@ var SITE_DATA = {
   },
   {
    "key": "panorama",
-   "no": "04",
+   "no": "02",
    "title": "全景图",
    "en": "360° PANORAMA",
    "desc": "全屋 360° 实景漫游 · 10 个场景在线走动查看",
    "cover": "assets/img/covers/panorama_t.jpg",
    "count": 1,
    "countLabel": "在线 360° 漫游"
+  },
+  {
+   "key": "model3d",
+   "no": "03",
+   "title": "家具建模渲染",
+   "en": "3D MODELING",
+   "desc": "沙发 / 椅 / 茶几 / 灯具 / 柜体 · 图纸到场景全流程",
+   "cover": "assets/img/covers/model3d_t.jpg",
+   "count": 44
+  },
+  {
+   "key": "drawings",
+   "no": "04",
+   "title": "施工图",
+   "en": "CONSTRUCTION DRAWING",
+   "desc": "CAD 施工图 · 室内施工图 / 立面图，全套图纸可下载 PDF",
+   "cover": "assets/img/covers/drawings_t.jpg",
+   "count": 21
   }
  ],
  "galleries": {
@@ -459,7 +472,7 @@ var SITE_DATA = {
   "drawings": {
    "title": "施工图",
    "en": "CONSTRUCTION DRAWING",
-   "sub": "AutoCAD 全套图纸：室内施工图、立面图、大样图。",
+   "sub": "施工图纸展示",
    "groups": [
     {
      "name": "室内施工图",
@@ -627,36 +640,6 @@ var SITE_DATA = {
        "h": 1131,
        "caption": "阳台立面图",
        "pdf": "assets/pdf/立面图/阳台立面图.pdf"
-      }
-     ]
-    },
-    {
-     "name": "大样图",
-     "en": "DETAILS",
-     "items": [
-      {
-       "src": "assets/img/drawings/大样图/多功能房D面节点大样图.jpg",
-       "thumb": "assets/img/drawings/大样图/多功能房D面节点大样图_t.jpg",
-       "w": 1600,
-       "h": 1131,
-       "caption": "多功能房D面节点大样图",
-       "pdf": "assets/pdf/大样图/多功能房D面节点大样图.pdf"
-      },
-      {
-       "src": "assets/img/drawings/大样图/天花大样图.jpg",
-       "thumb": "assets/img/drawings/大样图/天花大样图_t.jpg",
-       "w": 1600,
-       "h": 1131,
-       "caption": "天花大样图",
-       "pdf": "assets/pdf/大样图/天花大样图.pdf"
-      },
-      {
-       "src": "assets/img/drawings/大样图/玄关D面节点大样图.jpg",
-       "thumb": "assets/img/drawings/大样图/玄关D面节点大样图_t.jpg",
-       "w": 1600,
-       "h": 1131,
-       "caption": "玄关D面节点大样图",
-       "pdf": "assets/pdf/大样图/玄关D面节点大样图.pdf"
       }
      ]
     }

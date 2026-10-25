@@ -51,13 +51,29 @@
   function renderHome() {
     var s = D.site;
     var hero = $("#hero");
+    // 个人介绍：导语 + ✅要点 + 收束句（无结构化字段时退回单段 bio）
+    var bioHtml = '<p class="bio">' + esc(s.bio) + "</p>";
+    if (s.bioPoints && s.bioPoints.length) {
+      bioHtml =
+        '<p class="bio bio-lead">' + esc(s.bio) + "</p>" +
+        '<ul class="bio-points">' +
+        s.bioPoints.map(function (p) {
+          return '<li><span class="tick" aria-hidden="true">✓</span><span class="pt">' +
+            "<b>" + esc(p.label) + "</b>" + esc(p.text) + "</span></li>";
+        }).join("") +
+        "</ul>" +
+        (s.bioOutro ? '<p class="bio bio-outro">' + esc(s.bioOutro) + "</p>" : "");
+    }
+    var skillLabel = s.skillsLabel ? '<span class="skills-label">' + esc(s.skillsLabel) + "</span>" : "";
     hero.innerHTML =
       '<div class="hero-text">' +
       '<p class="eyebrow">' + esc(s.eyebrow) + "</p>" +
       "<h1>" + esc(s.name) + "</h1>" +
       '<p class="role">' + esc(s.role) + "</p>" +
-      '<p class="bio">' + esc(s.bio) + "</p>" +
+      bioHtml +
+      '<div class="skills-row">' + skillLabel +
       '<ul class="skills">' + s.skills.map(function (k) { return "<li>" + esc(k) + "</li>"; }).join("") + "</ul>" +
+      "</div>" +
       '<div class="hero-meta"><span><b>求职意向</b>　室内设计师 / 家具设计师</span>' +
       '<span><b>联系电话</b>　' + esc(s.phone) + "</span></div>" +
       '<div class="hero-actions"><a class="btn btn-solid" href="#works">浏览作品</a></div>' +

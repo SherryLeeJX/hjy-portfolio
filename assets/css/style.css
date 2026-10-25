@@ -77,12 +77,31 @@ button { font: inherit; background: none; border: 0; cursor: pointer; color: inh
   line-height: 1.12; margin: 18px 0 10px;
 }
 .hero .role { font-size: 19px; color: var(--accent); letter-spacing: .14em; margin-bottom: 22px; }
-.hero .bio { color: var(--ink-2); max-width: 34em; margin-bottom: 30px; }
-.skills { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 34px; }
+.hero .bio { color: var(--ink-2); max-width: 34em; }
+.hero .bio-lead { margin-bottom: 14px; font-weight: 500; color: var(--ink); }
+.bio-points { list-style: none; max-width: 34em; margin: 0 0 14px; display: grid; gap: 9px; }
+.bio-points li { display: flex; align-items: flex-start; gap: 10px; font-size: 14.5px; color: var(--ink-2); line-height: 1.75; }
+.bio-points .tick {
+  flex: 0 0 auto; width: 19px; height: 19px; margin-top: 4px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--accent); color: #fff; font-size: 11.5px; font-weight: 700;
+  border-radius: 6px;
+}
+.bio-points .pt b { color: var(--ink); font-weight: 600; margin-right: 2px; }
+.bio-points .pt b::after { content: "："; }
+.bio .bio-outro { margin-bottom: 0; }
+.skills-row { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 12px; margin: 24px 0 34px; }
+.skills-label {
+  font-size: 13px; font-weight: 700; letter-spacing: .12em; color: var(--ink);
+  padding-right: 12px; border-right: 1px solid var(--line);
+}
+.skills { display: flex; flex-wrap: wrap; gap: 8px; }
 .skills li {
-  font-size: 12.5px; letter-spacing: .06em; color: var(--ink-2);
-  border: 1px solid var(--line); background: var(--surface);
-  padding: 5px 14px; border-radius: 99px;
+  font-size: 13px; font-weight: 600; letter-spacing: .06em; color: var(--accent);
+  border: 1px solid var(--accent); background: var(--surface); /* 老浏览器回退 */
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  background: color-mix(in srgb, var(--accent) 7%, var(--surface));
+  padding: 6px 16px; border-radius: 99px;
 }
 .hero-meta { display: flex; flex-direction: column; gap: 6px; font-size: 14.5px; color: var(--ink-2); margin-bottom: 38px; }
 .hero-meta b { font-weight: 600; color: var(--ink); letter-spacing: .04em; }
