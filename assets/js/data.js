@@ -657,7 +657,7 @@ var SITE_DATA = {
      "h": 1199,
      "caption": "空间效果图 · 01",
      "conceptTitle": "主卧 · 原木叙事",
-     "concept": "木格栅背景墙与隐藏灯带柔化光线，通顶衣柜与飘窗一体，方寸之间尽是松弛的睡眠仪式。"
+     "concept": "木格栅与隐藏灯带柔化光线，通顶衣柜与飘窗一体，营造松弛睡眠氛围。"
     },
     {
      "src": "assets/img/renders/02.jpg",
@@ -666,7 +666,7 @@ var SITE_DATA = {
      "h": 1199,
      "caption": "空间效果图 · 02",
      "conceptTitle": "主卧 · 复古奶油",
-     "concept": "石膏线与组合挂画铺陈法式温度，胡桃木护墙稳定重心，暖光晕染出安睡与梳妆的双重情境。"
+     "concept": "石膏线与组合挂画铺陈法式温度，胡桃木护墙与暖光晕染安睡氛围。"
     },
     {
      "src": "assets/img/renders/03.jpg",
@@ -675,7 +675,7 @@ var SITE_DATA = {
      "h": 1371,
      "caption": "空间效果图 · 03",
      "conceptTitle": "餐厅 · 日式原木",
-     "concept": "木格栅移门与餐边水吧相映，原木长桌承载三餐四季，灯带勾勒层次，安静而治愈。"
+     "concept": "木格栅移门与餐边水吧相映，原木长桌承载三餐四季，安静治愈。"
     },
     {
      "src": "assets/img/renders/04.jpg",
@@ -684,7 +684,7 @@ var SITE_DATA = {
      "h": 1388,
      "caption": "空间效果图 · 04",
      "conceptTitle": "书房 · 拱形美学",
-     "concept": "拱形洞板柜与黑色雕塑感书桌形成轻重对话，藤编与黄铜细节点缀，沉静中带着趣味。"
+     "concept": "拱形洞板柜与黑色书桌轻重对话，藤编与黄铜细节沉静有趣。"
     },
     {
      "src": "assets/img/renders/05.jpg",
@@ -693,7 +693,7 @@ var SITE_DATA = {
      "h": 1391,
      "caption": "空间效果图 · 05",
      "conceptTitle": "主卧 · 藤木自然",
-     "concept": "藤木衣柜与原木床架呼应自然质感，百叶光影随时间在墙面流动，卧室在晨光中苏醒。"
+     "concept": "藤木衣柜与原木床架呼应自然，百叶光影随时间在墙面流动。"
     },
     {
      "src": "assets/img/renders/06.jpg",
@@ -702,7 +702,7 @@ var SITE_DATA = {
      "h": 1600,
      "caption": "空间效果图 · 06",
      "conceptTitle": "卫生间 · 复古绿调",
-     "concept": "复古绿砖与花鸟花砖碰撞趣味，金色五金提亮细节，小空间也能精致耐看。"
+     "concept": "复古绿砖与花鸟花砖碰撞趣味，金色五金提亮细节，精致耐看。"
     },
     {
      "src": "assets/img/renders/07.jpg",
@@ -711,7 +711,7 @@ var SITE_DATA = {
      "h": 1256,
      "caption": "空间效果图 · 07",
      "conceptTitle": "儿童房 · 童梦森林",
-     "concept": "云朵灯与宇航员贴饰点亮童趣，上下铺与长书桌一体规划，小房间装下学习与梦境。"
+     "concept": "云朵灯与宇航员贴饰点亮童趣，上下铺与书桌一体规划。"
     },
     {
      "src": "assets/img/renders/08.jpg",
@@ -720,7 +720,7 @@ var SITE_DATA = {
      "h": 1599,
      "caption": "空间效果图 · 08",
      "conceptTitle": "阳台 · 健身一角",
-     "concept": "深色展示柜陈列运动装备，跑步机面向窗景而设，日常锻炼与城市风景相伴。"
+     "concept": "深色展示柜陈列运动装备，跑步机面向窗景，锻炼与风景相伴。"
     },
     {
      "src": "assets/img/renders/09.jpg",
@@ -729,7 +729,7 @@ var SITE_DATA = {
      "h": 1388,
      "caption": "空间效果图 · 09",
      "conceptTitle": "餐厅 · 奶油法式",
-     "concept": "奶油柜体嵌入木质餐边区，藤编圆椅配黑色圆桌，简化吊顶与灯带，轻松的日常仪式感。"
+     "concept": "奶油柜体嵌入木质餐边区，藤编圆椅配黑色圆桌，轻松有仪式感。"
     },
     {
      "src": "assets/img/renders/10.jpg",
@@ -738,7 +738,7 @@ var SITE_DATA = {
      "h": 1600,
      "caption": "空间效果图 · 10",
      "conceptTitle": "厨房 · 动线优先",
-     "concept": "L 型动线与浅奶油吊柜放大空间感，胡桃木地柜沉稳压色，洗切炒一线排布，好用易打理。"
+     "concept": "L 型动线与奶油吊柜放大空间，胡桃木地柜压色，好用易打理。"
     },
     {
      "src": "assets/img/renders/11.jpg",
@@ -747,7 +747,7 @@ var SITE_DATA = {
      "h": 1376,
      "caption": "空间效果图 · 11",
      "conceptTitle": "客厅 · 弧形引景",
-     "concept": "弧形垭口把湖景引入室内，人字拼地板延展纵深，低饱和布艺沙发围合出松弛会客区。"
+     "concept": "弧形垭口引湖景入室，人字拼地板延展纵深，围合松弛会客区。"
     },
     {
      "src": "assets/img/renders/12.jpg",
@@ -756,7 +756,7 @@ var SITE_DATA = {
      "h": 1199,
      "caption": "空间效果图 · 12",
      "conceptTitle": "次卧 · 日式留白",
-     "concept": "木饰面板护墙搭配原木矮床，吊扇灯兼顾实用与氛围，留白墙面让小次卧开阔安宁。"
+     "concept": "木饰面护墙配原木矮床，吊扇灯实用又有氛围，留白开阔安宁。"
     },
     {
      "src": "assets/img/renders/13.jpg",
@@ -765,7 +765,7 @@ var SITE_DATA = {
      "h": 967,
      "caption": "空间效果图 · 13",
      "conceptTitle": "餐厅 · 中古混搭",
-     "concept": "拱形门洞框出窗外绿意，中古吊灯与玻璃木柜呼应复古基调，餐厨一体的社交场。"
+     "concept": "拱形门洞框出窗外绿意，中古吊灯与玻璃木柜呼应复古基调。"
     },
     {
      "src": "assets/img/renders/14.jpg",
@@ -774,7 +774,7 @@ var SITE_DATA = {
      "h": 1122,
      "caption": "空间效果图 · 14",
      "conceptTitle": "主卧 · 现代暖橙",
-     "concept": "竖条格栅背景拉伸层高，橙色软包点亮灰调空间，分子吊灯轻盈其间，现代感与温度并存。"
+     "concept": "竖条格栅拉伸层高，橙色软包点亮灰调，现代感与温度并存。"
     },
     {
      "src": "assets/img/renders/15.jpg",
@@ -783,7 +783,7 @@ var SITE_DATA = {
      "h": 867,
      "caption": "空间效果图 · 15",
      "conceptTitle": "主卧 · 极简黑白",
-     "concept": "黑白木饰面与大理石纹拼块利落干净，长虹玻璃柜门透而不露，线条里藏着沉稳气场。"
+     "concept": "黑白木饰面与岩板拼块利落，长虹玻璃柜门透而不露，沉稳大气。"
     },
     {
      "src": "assets/img/renders/16.jpg",
@@ -792,7 +792,7 @@ var SITE_DATA = {
      "h": 1107,
      "caption": "空间效果图 · 16",
      "conceptTitle": "主卧 · 轻奢奶咖",
-     "concept": "奶咖色护墙与飘窗卡座连成休闲区，皮革软包床具提升质感，细节灯光勾勒轻盈氛围。"
+     "concept": "奶咖护墙与飘窗卡座连成休闲区，皮革床具与细节灯光提质感。"
     }
    ]
   },
